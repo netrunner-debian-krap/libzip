@@ -1,0 +1,6 @@
+libzip (0.8-1) unstable; urgency=low
+
+  * Initial release. (Closes: #446583)
+
+ -- Fathi Boudra <fboudra@free.fr>  Sun, 14 Oct 2007 09:20:12 +0200
+
