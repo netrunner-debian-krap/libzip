@@ -4,6 +4,7 @@ Maintainer: Fathi Boudra <fabo@debian.org>
 Build-Depends: cdbs, debhelper (>= 5), quilt, autotools-dev, zlib1g-dev
 Standards-Version: 3.7.2
 Section: libs
+Homepage: http://www.nih.at/libzip/
 
 Package: libzip-dev
 Section: libdevel
@@ -16,8 +17,6 @@ Description: library for reading, creating, and modifying zip archives (developm
  .
  This package contains the static libraries and headers for developing
  applications that use the libzip library API.
- .
-  Homepage: http://www.nih.at/libzip/
 
 Package: libzip1
 Section: libs
@@ -30,8 +29,6 @@ Description: library for reading, creating, and modifying zip archives (runtime)
  .
  This package contains the files necessary for running applications that
  use the libzip library.
- .
-  Homepage: http://www.nih.at/libzip/
 
 Package: zipcmp
 Section: utils
@@ -41,8 +38,6 @@ Description: compare contents of zip archives
  zipcmp compares two zip archives and checks if they contain the same files,
  comparing their names, uncompressed sizes, and CRCs. File order and compressed
  size differences are ignored.
- .
-  Homepage: http://www.nih.at/libzip/
 
 Package: zipmerge
 Section: utils
@@ -52,6 +47,3 @@ Description: merge zip archives
  zipmerge merges a source zip archives into a target zip archive.
  By default, files in the source zip archives overwrite existing files of the
  same name in the target zip archive.
- .
-  Homepage: http://www.nih.at/libzip/
-
