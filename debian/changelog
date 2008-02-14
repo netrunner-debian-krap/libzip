@@ -1,6 +1,7 @@
-libzip (0.8-2) unstable; urgency=low
+libzip (0.8-2) UNRELEASED; urgency=low
 
   * Add Homepage: to control.
+  * Add watch file.
 
  -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Tue, 08 Jan 2008 11:32:06 -0500
 
