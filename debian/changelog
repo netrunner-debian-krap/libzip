@@ -1,9 +1,12 @@
-libzip (0.8-2) UNRELEASED; urgency=low
+libzip (0.9-1) unstable; urgency=low
 
-  * Add Homepage: to control.
+  * New upstream release (Closes: #537349)
+
+  [ Matthew Rosewarne ]
+  * Update debian/control: add Homepage field.
   * Add watch file.
 
- -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Tue, 08 Jan 2008 11:32:06 -0500
+ -- Fathi Boudra <fabo@debian.org>  Fri, 17 Jul 2009 15:01:02 +0200
 
 libzip (0.8-1) unstable; urgency=low
 
