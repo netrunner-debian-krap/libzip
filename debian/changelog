@@ -2,6 +2,9 @@ libzip (0.9-1) unstable; urgency=low
 
   * New upstream release (Closes: #537349)
 
+  [ Fathi Boudra ]
+  * Add ziptorrent package.
+
   [ Matthew Rosewarne ]
   * Update debian/control: add Homepage field.
   * Add watch file.
