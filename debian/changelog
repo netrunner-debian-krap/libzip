@@ -1,3 +1,10 @@
+libzip (0.9-3) unstable; urgency=low
+
+  * Add patch to support archives with 64k entries (Closes: #536215)
+    Thanks to Dieter Baron
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 28 Jul 2009 22:21:37 +0200
+
 libzip (0.9-2) unstable; urgency=low
 
   * Fix shlibs (Closes: #537954)
