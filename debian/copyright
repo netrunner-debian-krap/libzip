@@ -7,15 +7,15 @@ Upstream Authors:
 
     Dieter Baron <dillo@giga.or.at>
     Thomas Klausner <tk@giga.or.at>
-    The authors can be contacted at <nih@giga.or.at>
+    The authors can be contacted at <libzip@nih.at>
 
 Copyright:
 
-    (C) 1999-2007 Dieter Baron and Thomas Klausner
+    Copyright (C) 1999-2008 Dieter Baron and Thomas Klausner
 
 Copyright for mkstemp code:
 
-    (C) 1987, 1993 The Regents of the University of California.
+    Copyright (C) 1987, 1993 The Regents of the University of California.
     All rights reserved.
 
 License:
@@ -45,5 +45,8 @@ License:
     OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
     IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-The Debian packaging is (C) 2007, Fathi Boudra <fboudra@free.fr> and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+The Debian packaging is:
+
+    Copyright (C) 2007-2010 Fathi Boudra <fabo@debian.org>
+
+and is licensed under the GPL version 3, see "/usr/share/common-licenses/GPL-3".

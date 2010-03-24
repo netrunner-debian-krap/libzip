@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/autotools.mk
-include /usr/share/cdbs/1/rules/patchsys-quilt.mk
-include /usr/share/cdbs/1/rules/utils.mk
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
 
-DEB_DH_INSTALL_SOURCEDIR := debian/tmp
-DEB_DH_MAKESHLIBS_ARGS_ALL := -V
+%:
+	dh --parallel --list-missing $@
+
+.PHONY: override_dh_auto_test
