@@ -7,6 +7,7 @@ libzip (0.10-1) UNRELEASED; urgency=low
     - replace autotools-dev build dependency by dh-autoreconf.
     - update libzip-dev dependency to libzip2 (soname bump).
   * Update debian/libzip-dev.install: add zipconf.h file.
+  * Rename and update debian/libzip1.{install/symbols} to libzip2.
 
  -- Fathi Boudra <fabo@debian.org>  Sun, 01 May 2011 16:08:55 +0300
 
