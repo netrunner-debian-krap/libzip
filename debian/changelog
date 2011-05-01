@@ -1,3 +1,9 @@
+libzip (0.10.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sun, 01 May 2011 16:08:55 +0300
+
 libzip (0.9.3-1) unstable; urgency=low
 
   * New upstream release. (Closes: #567769)
