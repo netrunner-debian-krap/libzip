@@ -1,8 +1,8 @@
 Source: libzip
 Priority: optional
 Maintainer: Fathi Boudra <fabo@debian.org>
-Build-Depends: debhelper (>= 7.4.15), autotools-dev, zlib1g-dev
-Standards-Version: 3.8.4
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, zlib1g-dev
+Standards-Version: 3.9.2
 Section: libs
 Homepage: http://www.nih.at/libzip/
 
