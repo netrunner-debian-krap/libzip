@@ -8,6 +8,9 @@ libzip (0.10-1) UNRELEASED; urgency=low
     - update libzip-dev dependency to libzip2 (soname bump).
   * Update debian/libzip-dev.install: add zipconf.h file.
   * Rename and update debian/libzip1.{install/symbols} to libzip2.
+  * Update debian/rules:
+    - pass --with autoreconf to dh.
+    - re-enable dh_auto_test.
 
  -- Fathi Boudra <fabo@debian.org>  Sun, 01 May 2011 16:08:55 +0300
 
