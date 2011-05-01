@@ -6,6 +6,7 @@ libzip (0.10-1) UNRELEASED; urgency=low
     - bump Standards-Version to 3.9.2 (no changes needed).
     - replace autotools-dev build dependency by dh-autoreconf.
     - update libzip-dev dependency to libzip2 (soname bump).
+  * Update debian/libzip-dev.install: add zipconf.h file.
 
  -- Fathi Boudra <fabo@debian.org>  Sun, 01 May 2011 16:08:55 +0300
 
