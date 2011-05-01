@@ -1,6 +1,9 @@
 libzip (0.10-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Add patches:
+    - fix_open_nonarchive_test.patch to fix regressions tests.
+    - fix_zipconf_path.patch to install zipconf.h in include dir.
   * Update debian/control:
     - bump debhelper build dependency version to 8.0.0.
     - bump Standards-Version to 3.9.2 (no changes needed).
