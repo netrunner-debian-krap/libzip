@@ -1,21 +1,21 @@
-libzip (0.10-1) UNRELEASED; urgency=low
+libzip (0.10-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release. (Closes: #647131)
   * Add patches:
-    - fix_open_nonarchive_test.patch to fix regressions tests.
-    - fix_zipconf_path.patch to install zipconf.h in include dir.
-  * Update debian/control:
-    - bump debhelper build dependency version to 8.0.0.
-    - bump Standards-Version to 3.9.2 (no changes needed).
-    - replace autotools-dev build dependency by dh-autoreconf.
-    - update libzip-dev dependency to libzip2 (soname bump).
-  * Update debian/libzip-dev.install: add zipconf.h file.
-  * Rename and update debian/libzip1.{install/symbols} to libzip2.
+    - fix_open_nonarchive_test.patch
+    - fix_zipconf_path.patch
+  * Update debian/compat: bump to 8.
   * Update debian/rules:
-    - pass --with autoreconf to dh.
-    - re-enable dh_auto_test.
+    - build depends on dh-autoreconf.
+    - bump debhelper build dependency to 8.0.0.
+    - bump Standards-Version to 3.9.0 - no changes needed.
+    - rename libzip1 to libzip2 (bump soname).
+  * Update debian/rules:
+    - use dh with autoreconf.
+    - drop override_dh_auto_test.
+  * Update debian/*.install files.
 
- -- Fathi Boudra <fabo@debian.org>  Sun, 01 May 2011 16:08:55 +0300
+ -- Fathi Boudra <fabo@debian.org>  Sat, 31 Dec 2011 14:39:13 +0200
 
 libzip (0.9.3-1) unstable; urgency=low
 
